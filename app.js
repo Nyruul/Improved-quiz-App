@@ -44,8 +44,9 @@ const store = {
                 'you\'re feelin\'in it!'
             ],
             correctAnswer: 'Tbh I was feel\'in it!'
-        }
+        },
+    ],
+    questionNumber: 0,
+    score: 0
 
-
-    ]
-}
+};
