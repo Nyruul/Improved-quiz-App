@@ -1,0 +1,76 @@
+/* Really gonna use this round to improve css skills */
+
+* {box-sizing: border-box;}
+
+body {
+    background-image: url('page-background-shell\-\2.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    top: 200px;;
+    background-color: white;
+    border-radius: 05%;
+    max-width: 60%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    max-width: 150px;
+    padding: 10px;
+}
+
+main > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+ul {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.start {
+    width: 120px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: yellowgreen;
+}
+
+.start:hover {
+    background-color: rgb(255, 17, 17);
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.checkAnswer {
+    margin-top: 5px;
+}
+
+#quiz {
+    background-color: rgb(193, 218, 218);
+    border: 1px black solid;
+    border-radius: 5%;
+}
+
+fieldset {
+    border: none;
+}
