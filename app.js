@@ -74,8 +74,12 @@ function renderPageOne(){
 
 }
 function renderQuizQuestions(){
-    return `<section class='quizContent'>
+    return <section class='quizContent'>
     <h1>App</h1>
-    <p>Question `+store.questionNumber+` of 5 </p>`
-}
+    <p>Question `+store.questionNumber+` of 5 </p>
+
+    <form id='quiz'>
+        <fieldset><legend label="question">`+store.questions[store.questionNumber - 1 ].question+`</legend>
+        <input type="radio" value="`+store.questions[store.questionNumber -1 ].answers[0]+`" name="choices" id="choice-first"
+        ></input> </fieldset>
 }
